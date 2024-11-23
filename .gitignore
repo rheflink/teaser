@@ -1,13 +1,17 @@
 # Node.js cache and tooling
 node_modules/
 .yarn/
+.pnp.cjs
+.pnp.loader.mjs
 
 # IDE and editor cache
 .idea/
 .vscode/
+.editorconfig
+
+.gitattributes
 
 # Logs and backup files
 *.log
 *.bak
 *.old
-
