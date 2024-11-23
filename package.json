@@ -1,6 +1,9 @@
 {
   "name": "teaser",
   "packageManager": "yarn@4.5.2",
+  "scripts": {
+    "twbuild": "tailwindcss -i ./static/stylesheets/tailwind-base.css -o ./static/stylesheets/tailwind-build.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
   }
