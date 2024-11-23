@@ -6,6 +6,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {},
+    screens: {
+      tablet: "1024px",
+      laptop: "1280px",
+      desktop: "1536px",
+    },
   },
   plugins: [],
 };
