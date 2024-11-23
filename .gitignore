@@ -1,0 +1,13 @@
+# Node.js cache and tooling
+node_modules/
+.yarn/
+
+# IDE and editor cache
+.idea/
+.vscode/
+
+# Logs and backup files
+*.log
+*.bak
+*.old
+
