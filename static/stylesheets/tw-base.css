@@ -39,12 +39,22 @@
         @apply w-full h-full text-slate-100;
 
         /* Background gradient. */
-        @apply bg-gradient-to-r from-purple-950 via-violet-950 to-indigo-950;
+        @apply bg-white;
 
         /* Dark theme styles. */
         @apply dark:bg-zinc-900 dark:text-gray-300;
 
         -webkit-user-select: none;
         user-select: none;
+    }
+}
+
+@layer components {
+    .intro-main {
+        @apply text-6xl desktop:text-8xl text-violet-100;
+    }
+
+    .intro-desc {
+        @apply py-8 text-base desktop:text-2xl text-violet-400;
     }
 }
